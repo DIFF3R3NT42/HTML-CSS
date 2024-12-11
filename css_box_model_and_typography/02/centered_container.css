@@ -1,0 +1,19 @@
+.outer {
+    width: 99vw;
+    border: 1px solid green;
+}
+.inner {
+    width: 80vw;
+    border: solid blue;
+    margin: 20px auto;
+}
+
+.inner div {
+    margin: 20px;
+    border: solid black;
+}
+
+.text {
+    text-align: center;
+    margin: 20px;
+}
