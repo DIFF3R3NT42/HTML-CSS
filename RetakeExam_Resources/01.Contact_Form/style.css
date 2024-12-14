@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+  }
+
+body {
+    background-color: hsl(0deg 0% 96.47%);
+}
+
+.container {
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.get-in-touch {
+    flex: 0 0 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.follow {
+    flex: 0 0 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+}
+
+.get-in-touch h2 {
+    flex: 0 0 100%;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.follow h2 {
+    flex: 0 0 100%;
+    letter-spacing: 5px;
+}
+
+.name,
+.email {
+    flex: 0 0 49%;
+}
+
+.message {
+    flex: 0 0 100%;
+}
+
+.send-button {
+    flex: 0 0 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.disclaimer {
+    flex: 0 0 91%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 70%;
+}
+
+
+.name,
+.email,
+.message {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    opacity: 70%;
+
+}
+
+.email {
+    margin-left: 2%;
+}
+
+.spaced {
+    word-spacing: 15px;
+}
+
+
+.follow i {
+    flex: 0 0 20%;
+    border: 1px solid silver;
+    border-radius: 3px;
+    align-content: center;
+    text-align: center;
+    padding: 10px auto;
+    cursor: pointer;
+}

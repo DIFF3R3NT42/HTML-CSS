@@ -1,0 +1,90 @@
+@media screen and (max-width: 600px) {
+
+    nav ul {
+      display: none;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+    
+    .checkbtn {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+        top: 70px;
+      }
+
+      .site-header > i {
+        left: 259px;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+
+    }
+
+    .about {
+        padding: 20px; 
+      }
+    
+     
+      .about-header {
+        display: block; 
+        text-align: center; 
+        width: 100%; 
+        margin-bottom: 20px; 
+      }
+    
+     
+      .about-header i {
+        margin-bottom: 10px;
+      }
+    
+    
+      .about-text {
+        width: 50%; 
+        margin-left: 260px; 
+        position: relative;
+        top: -63px;
+      }
+    
+     
+      .about-header h2 {
+        font-size: 1.5rem; 
+      }
+    
+    
+      .about-text p {
+        font-size: 1rem;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+        position: sticky;
+      }
+     
+      .about-header {
+        text-align: center;
+        width: 300px;
+        display: inline-block;
+        position: relative;
+        bottom: -150px;
+    }
+    .about-header {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .gallery {
+        margin: 40px;
+    }
+}
+
+
